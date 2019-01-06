@@ -1,7 +1,6 @@
 import gitbucket.core.plugin.PluginRegistry
 import gitbucket.core.service.SystemSettingsService
 import io.github.gitbucket.solidbase.model.Version
-import gitbucket.core.view.helpers
 import javax.servlet.ServletContext
 
 class Plugin extends gitbucket.core.plugin.Plugin {
