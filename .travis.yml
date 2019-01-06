@@ -8,7 +8,7 @@ cache:
     - "$HOME/.sbt"
 
 script:
-  - sbt yarn webpack assembly
+  - sbt assembly
 
 deploy:
   provider: releases
