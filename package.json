@@ -1,0 +1,14 @@
+{
+  "name": "gitbucket-sticky-plugin",
+  "license": "Apache-2.0",
+  "version": "1.0.0",
+  "devDependencies": {
+    "css-loader": "^2.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.2.0"
+  },
+  "dependencies": {
+    "jquery-sticky": "^1.0.4"
+  }
+}

@@ -1,0 +1,5 @@
+name := "gitbucket-sticky-plugin"
+organization := "io.github.kounoike"
+version := "1.0.0"
+scalaVersion := "2.12.8"
+gitbucketVersion := "4.30.1"
