@@ -6,7 +6,7 @@ import javax.servlet.ServletContext
 class Plugin extends gitbucket.core.plugin.Plugin {
   override val pluginId: String = "sticky"
   override val pluginName: String = "Sticky Plugin"
-  override val description: String = "Example of GitBucket plug-in with webpack"
+  override val description: String = "Enable sticky display for issue/pr/wikipage title"
   override val versions: List[Version] = List(new Version("1.0.0"))
 
   override val assetsMappings = Seq("/sticky" -> "/assets")
